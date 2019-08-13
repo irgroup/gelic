@@ -12,4 +12,6 @@ This repository contains the following items:
 
 This repository is joined work of the following people
 
-- ....
+- Philipp Schaer ([phschaer](https://github.com/phschaer), project lead)
+- Klaus Lepsky ([klepsky](https://github.com/klepsky), project lead)
+- Ina Böckmann ([iboeckmann](https://github.com/iboeckmann))
