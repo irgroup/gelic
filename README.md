@@ -1,6 +1,6 @@
 # GeLIC - German Library Indexing Collection
 
-Gelic is Proto-Germanic for "like, alike, similar" (see [Wiktionary](https://en.wiktionary.org/wiki/gelic)). 
+*Gelic is Proto-Germanic for "like, alike, similar" (see [Wiktionary](https://en.wiktionary.org/wiki/gelic)).* 
 
 This repository contains the following items:
 
