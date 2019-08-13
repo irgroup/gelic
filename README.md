@@ -10,8 +10,12 @@ This repository contains the following items:
 
 ## Authors
 
-This repository is joined work of the following people
+This repository is joined work of the following people:
 
 - Philipp Schaer ([phschaer](https://github.com/phschaer), project lead)
 - Klaus Lepsky ([klepsky](https://github.com/klepsky), project lead)
 - Ina Böckmann ([iboeckmann](https://github.com/iboeckmann))
+
+### Alumni
+
+- Johanna Munkelt ([FH Dortmund](https://www.fh-dortmund.de/de/addresses/munkelt_johanna.php))
