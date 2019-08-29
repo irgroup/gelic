@@ -12,7 +12,7 @@ This repository contains the following items:
 - `src` contains a bunch of conversion and analysis scripts
 - `eval` contains trec_eval-like scripts to evaluate different search settings with gelic
 
-  -`search.py` is a script to search a solr instance with different queries
+  -`search.py` is a script to search a local solr instance with different queries
 ## Authors
 
 This repository is joined work of the following people:
