@@ -12,6 +12,7 @@ This repository contains the following items:
 - `src` contains a bunch of conversion and analysis scripts
 - `eval` contains trec_eval-like scripts to evaluate different search settings with gelic
 
+  -`search.py` is a script to search a solr instance with different queries
 ## Authors
 
 This repository is joined work of the following people:
@@ -21,6 +22,7 @@ This repository is joined work of the following people:
 - Ina Böckmann ([iboeckmann](https://github.com/iboeckmann))
 - Sebastian Pommerencke ([SebastianPommerencke](https://github.com/SebastianPommerencke))
 - Sven Gaida ([SvenGaida](https://github.com/SvenGaida))
+- Felix van Tellingen ([fvantellingen](https://github.com/fvantellingen))
 ### Alumni
 
 - Johanna Munkelt ([FH Dortmund](https://www.fh-dortmund.de/de/addresses/munkelt_johanna.php))
