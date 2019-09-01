@@ -5,24 +5,24 @@
 This repository contains the following items:
 
 - `collection` contains the documents, relevance assessments and topics
-
-  -`dnb_topics.xml`contains topics used for evaluation
-  
-  -`dnb_rel.txt` containts relevance assessments
+    - `dnb_topics.xml`contains topics used for evaluation
+    - `dnb_rel.txt` contains relevance assessments
 - `src` contains a bunch of conversion and analysis scripts
 - `eval` contains trec_eval-like scripts to evaluate different search settings with gelic
+    - `search.py` is a script to search a local solr instance with different queries. The results of the queries are then evaluated by trec_eval and the evaluations are saved as a csv-file
+    - `fieldnames.json`contains the different variations of "fields to search in" for search.py
 
-  -`search.py` is a script to search a local solr instance with different queries
 ## Authors
 
 This repository is joined work of the following people:
 
 - Philipp Schaer ([phschaer](https://github.com/phschaer), project lead)
 - Klaus Lepsky ([klepsky](https://github.com/klepsky), project lead)
-- Ina Böckmann ([iboeckmann](https://github.com/iboeckmann))
+- Ina Böckmann ([iboeckma](https://github.com/iboeckma))
 - Sebastian Pommerencke ([SebastianPommerencke](https://github.com/SebastianPommerencke))
 - Sven Gaida ([SvenGaida](https://github.com/SvenGaida))
 - Felix van Tellingen ([fvantellingen](https://github.com/fvantellingen))
+
 ### Alumni
 
 - Johanna Munkelt ([FH Dortmund](https://www.fh-dortmund.de/de/addresses/munkelt_johanna.php))
