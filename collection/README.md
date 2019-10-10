@@ -1,4 +1,4 @@
-The "dnb-corpus" contains the following categories:
+The "gelic_collection" contains the following categories:
 „id“: contains the document-id
 „title_txt_de“/„title_s“: contains title data
 „editor_ss“: contains the editor‘s names
