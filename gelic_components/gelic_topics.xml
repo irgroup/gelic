@@ -4,7 +4,7 @@
 		<identifier>01</identifier>
 		<title>Kritische Theorie</title>
 		<description>Finde Dokumente, die die Kritische Theorie thematisieren.</description>
-		<narrative>Relevante Dokumente berichten über die kritische Analyse einer kapitalistischen Gesellschaft aus der Perspektive der Frankfurter Schule. Relevant sind Dokumente, die Herrschafts- und Unterdrückungsmechanismen und Ideologien in einer kapitalistischen Gesellschaft untersuchen und darauf abzielen, eine vernünftigen Gesellschaft mündiger Menschen zu bilden. Teilweise relevant sind Dokumente, die Kritische Theorie in Teilaspekten, im Ausland oder als Stufe einer Entwicklung behandeln.</narrative>
+		<narrative>Relevante Dokumente berichten über die kritische Analyse einer kapitalistischen Gesellschaft aus der Perspektive der Frankfurter Schule. Relevant sind Dokumente, die Herrschafts- und Unterdrückungsmechanismen und Ideologien in einer kapitalistischen Gesellschaft untersuchen und darauf abzielen, eine vernünftige Gesellschaft mündiger Menschen zu bilden. Teilweise relevant sind Dokumente, die die Kritische Theorie in Teilaspekten, im Ausland oder als Stufe einer Entwicklung behandeln.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>02</identifier>
@@ -15,32 +15,32 @@
 	<topic lang="de">
 		<identifier>03</identifier>
 		<title>Gerontologie</title>
-		<description>Finde Dokumente, die sich mit Altersforschung beschäftigen.</description>
-		<narrative>Relevante Dokumente berichten über die interdisziplinäre Forschung der mit dem Altern verbundenen Phänomene, Probleme und Ressourcen wie z.B. der demographische Wandel. Auch relevant sind Dokumente, die sich mit alternsrelevanten und alternskonstituierenden Umwelten und sozialen Umwelten im Alter befassen. Teilweise relevant sind Dokumente, die über sehr spezifische Bereiche berichten, die vom Alter beeinflusst werden.</narrative>
+		<description>Finde Dokumente, die sich mit der Altersforschung beschäftigen.</description>
+		<narrative>Relevante Dokumente berichten über die interdisziplinäre Forschung der mit dem Altern verbundenen Phänomene, Probleme und Ressourcen wie z.B. dem demographischen Wandel. Auch relevant sind Dokumente, die sich mit alternsrelevanten und alternskonstituierenden Umwelten und sozialen Umwelten im Alter befassen. Teilweise relevant sind Dokumente, die über sehr spezifische Bereiche berichten, die vom Alter beeinflusst werden.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>04</identifier>
 		<title>Frau und Beruf</title>
-		<description>FFinde Dokumente, die das Thema Frau und Beruf beleuchten.</description>
+		<description>Finde Dokumente, die das Thema Frau und Beruf beleuchten.</description>
 		<narrative>Relevante Dokumente diskutieren die Probleme von Frauen in der Arbeitswelt und die Entwicklung der Thematik. Teilweise relevant sind Dokumente, die nur bestimmte Berufsgruppen thematisieren oder den Konflikt zwischen Arbeit und Privatleben/Familie für Frauen diskutieren. Nicht relevant sind Ratgeber jedweder Art.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>05</identifier>
 		<title>Kunst in der Antike</title>
 		<description>Finde Dokumente, die über die Kunst in der Antike berichten.</description>
-		<narrative>Relevante Dokumente diskutieren die Entstehung und Erstellung von Kunst in der Antike (Epoche im Mittelmeerraum, etwa von 800 v. Chr. bis ca. 600 n Chr.). Auch relevant sind Dokumente die sich mit den Künstlern in der Antike auseinandersetzen. Nicht relevant sind Ratgeber für den Kauf/Verkauf antiker Kunst.</narrative>
+		<narrative>Relevante Dokumente diskutieren die Entstehung und Erstellung von Kunst in der Antike (Epoche im Mittelmeerraum, etwa von 800 v. Chr. bis ca. 600 n Chr.). Auch relevant sind Dokumente, die sich mit den Künstlern in der Antike auseinandersetzen. Nicht relevant sind Ratgeber für den Kauf/Verkauf antiker Kunst.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>06</identifier>
 		<title>Angst, Angststörungen und Angsterkrankungen</title>
 		<description>Finde Dokumente, die sich mit Angst und Angsterkrankungen beschäftigen.</description>
-		<narrative>Relevante Dokumente diskutieren Angst und Angststörungen sowie deren Behandlung. Auch relevant sind Dokumente, die sich mit der Bildung von Phobien befassen. Teilweise relevant sind Dokumente, die nur auf einen sehr spezifischen medizinischen Aspekt eingehen. Nicht relevant sind Dokumente zu Essstörungen oder der Angst vor dem Tod.</narrative>
+		<narrative>Relevante Dokumente diskutieren Angst und Angststörungen, sowie deren Behandlung. Auch relevant sind Dokumente, die sich mit der Bildung von Phobien befassen. Teilweise relevant sind Dokumente, die nur auf einen sehr spezifischen medizinischen Aspekt eingehen. Nicht relevant sind Dokumente zu Essstörungen oder der Angst vor dem Tod.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>07</identifier>
 		<title>Festkörperphysik</title>
-		<description>Finde Dokumente, die sich mit Festkörperphysik befassen.</description>
-		<narrative>Relevante Dokumente diskutieren die verschiedenen Eigenschaften von Festkörprern und deren Verhalten. Die Organisation und Beschreibung dieser ist ebenfalls relevant. Teilweise relevant sind Dokumente, in denen Festkörperphysik als eines der Grundlagenthemen erläutert wird.</narrative>
+		<description>Finde Dokumente, die sich mit der Festkörperphysik befassen.</description>
+		<narrative>Relevante Dokumente diskutieren die verschiedenen Eigenschaften von Festkörpern und deren Verhalten. Die Organisation und Beschreibung dieser ist ebenfalls relevant. Teilweise relevant sind Dokumente, in denen Festkörperphysik als eines der Grundlagenthemen erläutert wird.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>08</identifier>
@@ -54,29 +54,29 @@
 		<description>Finde Dokumente, die den Widerstand gegen den Nationalsozialismus thematisieren.</description>
 		<narrative>Relevante Dokumente berichten über den Widerstand von Personen, Gruppen und Einrichtungen im Gebiet der von der Wehrmacht besetzten Staaten und Deutschlands während der Zeit des Nationalsozialismus. Teilweise relevante Dokumente handeln vom Widerstand sehr kleiner Gruppierungen, bestimmten Ortskreisen oder sind die Biographien zu einzelnen Personen, die im Widerstand tätig waren. Nicht relevante Dokumente handeln vom Widerstand der Nazis in Kriegen.</narrative>
 	</topic>
-  <topic lang="de">
-    <identifier>10</identifier>
-    <title>Psychosomatische Krankheiten</title>
-    <description>Finde Dokumente über Psychosomatische Krankheiten.</description>
-    <narrative>Relevante Dokumente diskutieren körperliche Beschwerden/Krankheiten, die durch psychische Einflüsse/Belastung ausgelöst oder unterstützt werden. Teilweise relevant sind Dokumente zu psychsomatischen Essstörungen. Nicht relevant sind Dokumente, die sich mit der Somatophsychologie befassen, dem EInfluss von körperlichen Beschwerden auf psychische Gesundheit.</narrative>
-  </topic>
-  <topic lang="de">
-    <identifier>11</identifier>
-    <title>Umweltökonomie/ - ökonomik</title>
-    <description>Finde Dokumente aus dem Themenbereich "Umweltökonomie".</description>
-    <narrative>Relevante Dokumente behandeln den Einfluss industriellen Wirtschaftens auf die Umwelt, setzen sich mit ressourcenorientierter Umwelts- oder Wirtschaftpolitik auseinander oder behandeln einzelne Umweltsysteme, die unter wirtschaftlichen Einfluss stehen (z.B. Photovoltaik). Teilweise relevante Dokumente berichten über eine größeren Zusammenhang, in dem Umweltökonomie nur einen Teilaspekt darstellt.</narrative>
-  </topic>
+	<topic lang="de">
+	    <identifier>10</identifier>
+	    <title>Psychosomatische Krankheiten</title>
+	    <description>Finde Dokumente über Psychosomatische Krankheiten.</description>
+	    <narrative>Relevante Dokumente diskutieren körperliche Beschwerden/Krankheiten, die durch psychische Einflüsse/Belastung ausgelöst oder unterstützt werden. Teilweise relevant sind Dokumente zu psychsosomatischen Essstörungen. Nicht relevant sind Dokumente, die sich mit der Somatopsychologie befassen, dem Einfluss von körperlichen Beschwerden auf psychische Gesundheit.</narrative>
+	</topic>
+	<topic lang="de">
+		<identifier>11</identifier>
+		<title>Umweltökonomie/ - ökonomik</title>
+		<description>Finde Dokumente aus dem Themenbereich Umweltökonomik.</description>
+		<narrative>Relevante Dokumente behandeln den Einfluss industriellen Wirtschaftens auf die Umwelt, setzen sich mit ressourcenorientierter Umwelts- oder Wirtschaftpolitik auseinander oder behandeln einzelne Umweltsysteme, die unter wirtschaftlichen Einfluss stehen (z.B. Photovoltaik). Teilweise relevante Dokumente berichten über einen größeren Zusammenhang, in dem Umweltökonomik nur einen Teilaspekt darstellt.</narrative>
+	</topic>
 	<topic lang="de">
 		<identifier>12</identifier>
 		<title>Sprachwandel</title>
-		<description>FFinde Dokumente, die die Entwicklung einer Sprache untersuchen.</description>
-		<narrative>Relevante Dokumente behandeln Sprachwandel/die Sprachdynamik in Deutschland, die Entwicklung und die Auswirkungen. Teilweise relevante Dokumente sind Dokumente, die sich mit einem der Faktoren für Sprachwandel befassen, nur ein sehr spezielles Teilgebiet behandeln oder Festschriften, die Sprachwandel thematisieren. Nicht relevant sind Dokumente, die sich mit dem Sprachwandel in anderen Ländern befassen.</narrative>
+		<description>Finde Dokumente, die die Entwicklung der Sprache in Deutschland untersuchen.</description>
+		<narrative>Relevante Dokumente behandeln den Sprachwandel/die Sprachdynamik in Deutschland, die Entwicklung und Auswirkungen. Teilweise relevante Dokumente sind Dokumente, die sich mit einem der Faktoren des Sprachwandels befassen, nur ein sehr spezielles Teilgebiet behandeln oder Festschriften, die Sprachwandel thematisieren. Nicht relevant sind Dokumente, die sich mit dem Sprachwandel in anderen Ländern befassen.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>13</identifier>
 		<title>Bundestagswahl</title>
-		<description>Finde Dokumente, die die Bundestagswahl Deutschlands betreffen.</description>
-		<narrative>Relevante Dokumente zeigen Abläufe, Prozesse und Gesetze einer Bundestagswahl in Detuschland auf. Teilweise relevante Dokumente diskutieren mögliche Einflüsse auf die Ergebnisse einer Bundestagswahl im Allgemeinen. Nicht relevante Dokumente beziehen sich auf ein bestimmtes Ereignis/Ergebnis einer Bundestagswahl, befassen sich mit der Wahlkampfstrategie einer/mehrerer Parteien für eine Bundestagswahl oder thematisieren Reaktionen aus dem Ausland auf Ergebnisse einer Bundestagswahl.</narrative>
+		<description>Finde Dokumente, die Bundestagswahlen in Deutschland betreffen.</description>
+		<narrative>Relevante Dokumente thematisieren Abläufe, Prozesse und Gesetze von Bundestagswahlen in Deutschland. Teilweise relevante Dokumente diskutieren mögliche Einflüsse auf die Ergebnisse einer Bundestagswahl im Allgemeinen. Nicht relevante Dokumente beziehen sich auf ein bestimmtes Ereignis/Ergebnis einer Bundestagswahl, befassen sich mit der Wahlkampfstrategie einer/mehrerer Parteien für eine Bundestagswahl oder thematisieren Reaktionen aus dem Ausland auf Ergebnisse einer Bundestagswahl.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>14</identifier>
@@ -88,7 +88,7 @@
 		<identifier>15</identifier>
 		<title>Wirtschaftsethik</title>
 		<description>Finde Dokumente, die das Thema Wirtschaftsethik beleuchten.</description>
-		<narrative>Relevante Dokumente handeln von Wirtschaftsethik im Allgemeinen, beschreiben die Methoden und Ausprägungen. Teilweise relevante Dokument thematisieren Wirtschafsethik in bestimmten Unternehmenskreisen oder sind allgemein gehalten, aber in englischer Sprache verfasst.</narrative>
+		<narrative>Relevante Dokumente handeln von Wirtschaftsethik im Allgemeinen, beschreiben also die Methoden und Ausprägungen. Teilweise relevante Dokument thematisieren Wirtschafsethik in bestimmten Unternehmenskreisen oder sind allgemein gehalten, aber in englischer Sprache verfasst.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>16</identifier>
@@ -100,23 +100,23 @@
 		<identifier>17</identifier>
 		<title>Direktmarketing</title>
 		<description>Finde Dokumente, die direkte Kundenansprache durch ein Unternehmen thematisieren.</description>
-		<narrative>Relevante Dokumente behandeln Taktiken und geben Beispiele für Unternehmen für das Direktmarketing. Nicht relevante Dokumente befassen sich mit anderen Marketingmethoden, beispielsweise Kundenakquise über Social-Media- Marketing.</narrative>
+		<narrative>Relevante Dokumente behandeln Taktiken und geben Beispiele für Unternehmen im Bereich Direktmarketing. Nicht relevante Dokumente befassen sich mit anderen Marketingmethoden, beispielsweise Kundenakquise über Social-Media-Marketing.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>18</identifier>
 		<title>Behandlung bei Schlaganfällen</title>
-		<description>Finde Dokumente, die Behandlungsmöglichkeite n bei Schlaganfällen aufzeigen.</description>
+		<description>Finde Dokumente, die Behandlungsmöglichkeiten bei Schlaganfällen aufzeigen.</description>
 		<narrative>Relevante Dokumente beschreiben die Behandlung eines Schlaganfallpatienten im Alltag nach seinem Krankenhausaufenthalt. Teilweise relevant sind medizinische Studien zur Behandlung von Schlaganfällen.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>19</identifier>
 		<title>Zimmerpflanzen</title>
 		<description>Finde Dokumente, die sich mit Zimmerpflanzen befassen.</description>
-		<narrative>Relevante Dokumente beschreiben die Artenvielfalt, Aufzucht und Pflege verschiedener Zimmerpflanzen und bieten Anleitungen für ihr langes Bestehen. Teilweise relevante Dokumente handeln von einer einzelnen Zimmerpflanze (z.B. Orchidee). Nicht relevante Dokumente beschäftigen sich mit Gartengestaltung, Gartenpflanzen oder ähnlichem.</narrative>
+		<narrative>Relevante Dokumente beschreiben die Artenvielfalt, Aufzucht und Pflege verschiedener Zimmerpflanzen und bieten Anleitungen für ihr langes Bestehen. Teilweise relevante Dokumente handeln von einer einzelnen Zimmerpflanze (z.B. Orchidee). Nicht relevante Dokumente beschäftigen sich mit Gartengestaltung, Gartenpflanzen oder Ähnlichem.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>20</identifier>
-		<title>Reiseführer für die Toskana</title>
+		<title>Reiseführer für die Toskana</title>
 		<description>Finde Dokumente, die als Reiseführer für die Region Toskana fungieren.</description>
 		<narrative>Relevante Dokumente zählen Restaurants, Wanderwege, Aussichtspunkte und öffentliche Einrichtungen auf und bewerten diese und sind allgemeine Reiseführer für die Toskana. Teilweise relevante Dokumente behandeln einen bestimmten Ort/eine bestimmte Insel der Toskana mit der Toskana gemeinsam oder sind allgemeine Reiseführer für ganz Italien. Nicht relevante Dokumente sind Bildbände oder Reiseführer nur für einzelne Städte/Inseln in der Toskana, z.B. Florenz oder Elba.</narrative>
 	</topic>
@@ -124,19 +124,19 @@
 		<identifier>21</identifier>
 		<title>Lateinamerikanische Tänze</title>
 		<description>Finde Dokumente, die sich mit lateinamerikanischen Tänzen beschäftigen.</description>
-		<narrative>Relevante Dokumente behandeln die verschiedenen Lateinamerikanischen Tänze und die Abgrenzung zum Standardtanz. Relevant sind Dokumente, wenn sie allgemein über lateinamerikanische Tänze berichten. Relevante Dokumente können auch einen speziellen Tanz aus dem lateinamerikanischen Raum betrachten. Teilweise relevant sind Dokumente, die lateinamerikanische Tänze in anderem Zusammenhang behandeln (Musik, Dichtung..).</narrative>
+		<narrative>Relevante Dokumente behandeln die verschiedenen lateinamerikanischen Tänze und die Abgrenzung zum Standardtanz. Relevant sind Dokumente, wenn sie allgemein über lateinamerikanische Tänze berichten. Relevante Dokumente können auch einen speziellen Tanz aus dem lateinamerikanischen Raum betrachten. Teilweise relevant sind Dokumente, die lateinamerikanische Tänze in anderem Zusammenhang behandeln (z.B. Musik oder Dichtung).</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>22</identifier>
 		<title>Gesprächsführung</title>
 		<description>Finde Dokumente, die sich mit Gesprächsführung beschäftigen.</description>
-		<narrative>Relevante Dokumente behandeln Methoden, Gespräche und Diskussionen anzuleiten und zu moderieren. Teilweise relevant sind Hilfen zur Gesprächsführung bei Patienten mit einem bestimmten Krankheitsbild oder Dokumente, die Rhetorik und Seelsorge thematisieren. Nicht relevant sind Wortschatzbücher, Wörterbücher, Sprachführer.</narrative>
+		<narrative>Relevante Dokumente behandeln Methoden und das Moderieren von Gesprächen und Diskussionen. Teilweise relevant sind Hilfen zur Gesprächsführung bei Patienten mit einem bestimmten Krankheitsbild oder Dokumente, die Rhetorik und Seelsorge thematisieren. Nicht relevant sind z.B. Wörterbücher oder Sprachführer.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>23</identifier>
 		<title>Islamischer Fundamentalismus</title>
 		<description>Finde Dokumente, die sich mit islamischem Fundamentalismus beschäftigen.</description>
-		<narrative>Relevante Dokumente behandeln die Gründe, Ausprägungen und Auswirkungen des islamischen Fundamentalismus und die in diesem Kontext auftretende Radikalisierung von Menschen bis hin zur Terrorbereitschaft. Teilweise relevante Dokumente thematisieren den Islamischen Fundamentalismus im Hinblick auf spezielle Ereignisse oder der Islamische Fundamentalismus taucht in einer Übersicht auf.</narrative>
+		<narrative>Relevante Dokumente behandeln die Gründe, Ausprägungen und Auswirkungen des islamischen Fundamentalismus und die in diesem Kontext auftretende Radikalisierung von Menschen bis hin zur Terrorbereitschaft. Teilweise relevante Dokumente thematisieren den islamischen Fundamentalismus im Hinblick auf spezielle Ereignisse oder bennenen ihn in einer Übersicht.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>24</identifier>
@@ -148,7 +148,7 @@
 		<identifier>25</identifier>
 		<title>Heilfasten</title>
 		<description>Finde Dokumente, die sich mit Heilfasten beschäftigen.</description>
-		<narrative>Relevante Dokumente behandeln unterschiedliche Methoden von Nulldiäten und Heilfasten und der Wirkung auf die körperliche und seelische Gesundheit sowie den Risiken, die damit verbunden sind. Relevant sind auch Dokumente, die sich mit dem esotherischen Aspekt von Fasten und Diät beschäftigen. Teilweise relevant sind Dokumente, die das religiöse Fasten zum Thema haben.</narrative>
+		<narrative>Relevante Dokumente behandeln unterschiedliche Methoden von Nulldiäten und Heilfasten und deren Wirkungen und Risiken auf die körperliche und seelische Gesundheit. Relevant sind auch Dokumente, die sich mit dem esotherischen Aspekt von Fasten und Diät beschäftigen. Teilweise relevant sind Dokumente, die das religiöse Fasten thematisieren.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>26</identifier>
@@ -166,19 +166,19 @@
 		<identifier>28</identifier>
 		<title>Künstliche Intelligenz</title>
 		<description>Finde Dokumente, die sich mit der Entwicklung künstlicher Intelligenz befassen.</description>
-		<narrative>Relevante Dokumente behandeln die Entwicklung von Technologien im Bereich künstlicher Intelligenz und die Diskussion über die gesellschaftliche Bedeutung intelligenter Maschinen. Teilweise relevant sind Dokumente, die den Einsatz von künstlicher Intelligenz in sehr spezifischen Bereichen thematiseren. Nicht relevant sind Dokumente, die eine Darstellung von oder eine Auseinandersetzung mit künstlicher Intelligenz in Filmen oder Romanen enthalten.</narrative>
+		<narrative>Relevante Dokumente behandeln die Entwicklung von Technologien im Bereich künstlicher Intelligenz und die Diskussion über die gesellschaftliche Bedeutung intelligenter Maschinen. Teilweise relevant sind Dokumente, die den Einsatz von künstlicher Intelligenz in sehr spezifischen Bereichen thematisieren. Nicht relevant sind Dokumente, die eine Darstellung von oder eine Auseinandersetzung mit künstlicher Intelligenz in Filmen oder Romanen enthalten.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>29</identifier>
 		<title>Außenpolitik der USA</title>
 		<description>Finde Dokumente, die sich mit der Außenpolitik der USA befassen.</description>
-		<narrative>Relevante Dokumente behandeln die Außenpolitik der USA im 20. oder 21. Jahrhundert, ihr Einfluss auf das Weltgeschehen und den Wandel in der Politik über die Jahre. Teilweise relevant sind Dokumente, die allgemein die Geschichte der USA thematisieren oder die Außenpolitik der Vereinigten Staaten und deren Einfluss bezogen auf einen sehr spezifischen Aspekt erwähnen. Nicht relevant sind Dokumente, die sich mit der Außenpolitik anderer Länder auseinandersetzen.</narrative>
+		<narrative>Relevante Dokumente behandeln die Außenpolitik der USA im 20. oder 21. Jahrhundert, etwa ihren Einfluss auf das Weltgeschehen und den Wandel in der Außenpolitik über die Jahre. Teilweise relevant sind Dokumente, die allgemein die Geschichte der USA thematisieren oder die Außenpolitik der Vereinigten Staaten und deren Einfluss bezogen auf einen sehr spezifischen Aspekt erwähnen. Nicht relevant sind Dokumente, die sich mit der Außenpolitik anderer Länder auseinandersetzen.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>30</identifier>
 		<title>Internetzeitalter</title>
 		<description>Finde Dokumente, die das Thema "Internetzeitalter" beinhalten.</description>
-		<narrative>Relevante Dokumente behandeln den Vorschmarsch des Internets, die Integration in den Alltag und die gesellschaftliche Bedeutung, die damit einhergeht, insbesondere der Einfluss auf Informationsverhalten und Meinungsbildung. Teilweise relevante Dokumente behandeln das Internet als Einflussfaktor auf ein sehr spezielles Themengebiet und das Thema soziale Netzwerke und deren Einfluss auf das einzelne Themen.</narrative>
+		<narrative>Relevante Dokumente behandeln den Vorschmarsch des Internets, die Integration in den Alltag und die gesellschaftliche Bedeutung, die damit einhergeht, insbesondere den Einfluss auf Informationsverhalten und Meinungsbildung. Teilweise relevante Dokumente behandeln das Internet als Einflussfaktor auf ein sehr spezielles Themengebiet, sowie das Thema soziale Netzwerke und deren Einfluss auf einzelne Themen.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>31</identifier>
@@ -190,7 +190,7 @@
 		<identifier>32</identifier>
 		<title>Chaostheorie</title>
 		<description>Finde Dokumente, die die Chaostheorie diskutieren.</description>
-		<narrative>Relevant sind alle Dokumente, die die Chaostheorie, ein vager Bereich der Nichtlinearen Dynamik, im Sinne der Mathematischen Physik oder der angewandten Mathematik behandeln. (Chaostheorie: Ordnung in speziellen dynamischen Systemen, deren zeitliche Entwicklung unvorhersehbar ist; die Systeme sind sehr empfindlich von den Anfangsbedingungen abhängig; Beispiel: magnetisches Pendel). Teilweise relevant sind Dokumente, die die Chaostheorie und ihr Einfluss auf andere Sachgebiete thematisieren. Nicht relevant sind geschichtliche Abhandlungen.</narrative>
+		<narrative>Relevant sind alle Dokumente, die die Chaostheorie, einen vagen Bereich der nichtlinearen Dynamik, im Sinne der mathematischen Physik oder der angewandten Mathematik behandeln. (Chaostheorie: Ordnung in speziellen dynamischen Systemen, deren zeitliche Entwicklung unvorhersehbar ist; die Systeme sind sehr empfindlich von den Anfangsbedingungen abhängig; Beispiel: magnetisches Pendel). Teilweise relevant sind Dokumente, die die Chaostheorie und ihren Einfluss auf andere Sachgebiete thematisieren. Nicht relevant sind geschichtliche Abhandlungen.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>33</identifier>
@@ -201,14 +201,14 @@
 	<topic lang="de">
 		<identifier>34</identifier>
 		<title>Politischer Skandal</title>
-		<description>Politischer Skandal Finde Dokumente, die politische Skandale thematisieren.</description>
-		<narrative>Relevant sind Dokumente, die sich mit rein politischen Skandalen und ihren Auswirkungen befassen, auch wenn sie Folgen für Wirtschaft oder andere Bereiche haben. Relevant sind auch Dokumente, in denen das Wort Affäre für eine skandalös beurteilte Angelegenheit in der Politik benutzt wird.</narrative>
+		<description>Finde Dokumente, die politische Skandale thematisieren.</description>
+		<narrative>Relevant sind Dokumente, die sich mit rein politischen Skandalen und ihren Auswirkungen auf die Politik, Wirtschaft oder andere Bereiche befassen. Auch relevant sind Dokumente, in denen das Wort Affäre für eine skandalös beurteilte Angelegenheit in der Politik benutzt wird.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>35</identifier>
 		<title>Entstehung und Entwicklung der Schrift</title>
 		<description>Finde Dokumente, die sich mit der Entstehung und Entwicklung der Schrift im Allgemeinen befassen.</description>
-		<narrative>Relevant sind Dokumente, die sich mit der Entstehung der Schrift als Verständigungsebene befassen, angefangen bei den Knoten-Verfahren, die in Südamerika entwickelt wurden. Teilweise relevant sind Dokumente, die sich mit der Entwicklung der heutigen Schrift und diversen Schriftarten befassen. Nicht relevant sind Dokumente, die sich mit der Entstehung der "Schrift", also der Bibel oder anderen religiösen/theologischen Schriften beschäftigen.</narrative>
+		<narrative>Relevant sind Dokumente, die sich mit der Entstehung der Schrift als Verständigungsebene befassen, angefangen bei den Knoten-Verfahren, die in Südamerika entwickelt wurden. Teilweise relevant sind Dokumente, die sich mit der Entwicklung der heutigen Schrift und diversen Schriftarten befassen. Nicht relevant sind Dokumente, die sich mit der Bibel oder anderen religiösen/theologischen Schriften beschäftigen.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>36</identifier>
@@ -220,13 +220,13 @@
 		<identifier>37</identifier>
 		<title>Straßenkinder</title>
 		<description>Finde Dokumente, die sich mit obdachlosen Kindern beschäftigen.</description>
-		<narrative>Relevante Dokumente behandeln das Leben von Kindern und Jugendlichen unter 18 Jahren, die obdachlos, von zu Hause weggelaufen oder ohne Angehörige sind. Relevant sind auch Dokumente, die mit den Zukunftsaussichten für Straßenkinder beschäftigen. Nicht relevant sind Dokumente über Straßengangs.</narrative>
+		<narrative>Relevante Dokumente behandeln das Leben von Kindern und Jugendlichen unter 18 Jahren, die obdachlos, von zu Hause weggelaufen oder ohne Angehörige sind. Relevant sind auch Dokumente, die sich mit den Zukunftsaussichten für Straßenkinder beschäftigen. Nicht relevant sind Dokumente über Straßengangs.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>38</identifier>
-		<title>Kriegsberichterstatt ung</title>
+		<title>Kriegsberichterstattung</title>
 		<description>Finde Dokumente, die sich mit Kriegsberichterstattung befassen.</description>
-		<narrative>Relevant sind alle Dokumente, die sich mit der journalistischen Berichterstattung in Medien über Kriege und kriegsähnliche Auseinandersetzungen und Konflikte beschäftigen. Relevant sind nicht nur Dokumente, die die politischen und militärischen Ereignisse zum Thema haben, sondern auch Dokumente, die Hintergrundberichte zu diplomatischen, humanitären und wirtschaftlichen Themen behandeln. Teilweise relevant sind Dokumente, die Kriegsberichterstattung vor dem Jahr 2000 thematisieren. Nicht relevant sind Dokumente, die eine Kriegsberichterstattung an sich sind (z.B. Berichte von Soldaten o.Ä.).</narrative>
+		<narrative>Relevant sind alle Dokumente, die sich mit der journalistischen Berichterstattung in den Medien über Kriege oder kriegsähnliche Auseinandersetzungen und Konflikte beschäftigen. Relevant sind nicht nur Dokumente, die die politischen und militärischen Ereignisse thematisieren, sondern auch Dokumente, die Hintergrundberichte zu diplomatischen, humanitären und wirtschaftlichen Themen behandeln. Teilweise relevant sind Dokumente, die Kriegsberichterstattung vor dem Jahr 2000 thematisieren. Nicht relevant sind Dokumente, die eine Kriegsberichterstattung an sich sind (z.B. Berichte von Soldaten o.Ä.).</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>39</identifier>
@@ -238,7 +238,7 @@
 		<identifier>40</identifier>
 		<title>Theatergeschichte</title>
 		<description>Finde Dokumente, die sich mit der Geschichte des Theaters im Allgemeinen befassen.</description>
-		<narrative>Relevant sind alle Dokumente, die sich mit der Geschichte der szenischen Aufführung dramatischer Texte in einem Theater oder einer ähnlichen EInrichtung befassen. Teilweise relevant sind Dokumente, die die Geschichte eines bestimmten Theaters über einen sehr langen Zeitraum, mindestens 100 Jahre, thematisieren. Nicht relevant sind Dokumente, die Stücke behandeln, die im Theater aufgeführt werden und das Wort "Geschichte(n)" im Titel enthalten.</narrative>
+		<narrative>Relevant sind alle Dokumente, die sich mit der Geschichte der szenischen Aufführung dramatischer Texte in einem Theater oder einer ähnlichen Einrichtung befassen. Teilweise relevant sind Dokumente, die die Geschichte eines bestimmten Theaters über einen sehr langen Zeitraum, mindestens 100 Jahre, thematisieren. Nicht relevant sind Dokumente, die Stücke behandeln, die im Theater aufgeführt werden und das Wort "Geschichte(n)" im Titel enthalten.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>41</identifier>
@@ -250,19 +250,19 @@
 		<identifier>42</identifier>
 		<title>Wirtschaftswunder in Deutschland</title>
 		<description>Finde Dokumente, die sich mit dem Wirtschaftswunder in Deutschland befassen.</description>
-		<narrative>Relevante Dokumente berichten über das schnelle und nachhaltige Wirtschaftswachstum in Deutschland nach dem Zweiten Weltkrieg, welches derart unerwartet erfolgte, dass das Schlagwort „Wirtschaftswunder“ geprägt wurde. Relevant sind auch Dokumente, die das deutsche Wirtschaftswachstum als natürlichen Prozess im Sinne des Solow- Modells diskutieren.Teilweise relevant sind Dokumente, die das Wirtschaftswunder und die resultierenden Folgen auf den Lebensalltag als Erfahrungsbericht einzelner Personen beschreiben. Nicht relevant sind Dokumente, die das Wort Wirtschaftswunder als Zeitabschnittsmarkierung nutzen und einen Alltagsaspekt in einer Zeitspanne vor oder nach dem Wirtschaftswunder beleuchten.</narrative>
+		<narrative>Relevante Dokumente berichten über das schnelle und nachhaltige Wirtschaftswachstum in Deutschland nach dem Zweiten Weltkrieg, welches derart unerwartet erfolgte, dass das Schlagwort „Wirtschaftswunder“ geprägt wurde. Relevant sind auch Dokumente, die das deutsche Wirtschaftswachstum als natürlichen Prozess im Sinne des Solow- Modells diskutieren. Teilweise relevant sind Dokumente, die das Wirtschaftswunder und die resultierenden Folgen auf den Lebensalltag als Erfahrungsbericht einzelner Personen beschreiben. Nicht relevant sind Dokumente, die das Wort Wirtschaftswunder als Zeitabschnittsmarkierung nutzen und einen Alltagsaspekt in einer Zeitspanne vor oder nach dem Wirtschaftswunder beleuchten.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>43</identifier>
 		<title>Spurenelemente in der Ernährung des Menschen</title>
 		<description>Finde Dokumente, die die Spurenelemente in der Ernährung des Menschen behandeln.</description>
-		<narrative>Relevante Dokumente berichten über die biologische Bedeutung von Spurenelementen für den Menschen sowie über ihr das Vorkommen in Nahrungsmitteln. Relevant sind auch Dokumente, die im Allgemeinen Spurenelemente definieren sowie auflisten. Nicht relevant sind Dokumente, die die Bedeutung von Spurenelementen in der Ernährung anderer Spezies als den Menschen behandeln ohne dass ein direkter Einfluss auf den Menschen entsteht.</narrative>
+		<narrative>Relevante Dokumente berichten über die biologische Bedeutung von Spurenelementen für den Menschen sowie über ihr das Vorkommen in Nahrungsmitteln. Relevant sind auch Dokumente, die im Allgemeinen Spurenelemente definieren sowie auflisten. Nicht relevant sind Dokumente, die die Bedeutung von Spurenelementen in der Ernährung anderer Spezies als den Menschen behandeln, ohne dass ein direkter Einfluss auf den Menschen entsteht.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>44</identifier>
 		<title>Shakespeares Dramen</title>
 		<description>Finde Dokumente, die sich mit Shakespeares Dramen beschäftigen.</description>
-		<narrative>Relevante Dokumente behandeln die verschiedenen Dramen Shakespeares im Allgemeinen oder die Tragödien Shakespeares.Teilweise relevant sind Dokumente, die sich mit bestimmten Merkmalen der Dramen Shakespeares beschäftigen, ihren Einfluss auf andere Themenbereiche thematisieren oder Shakespeares Leben und seine Werke im Allgemeinen behandeln. Ebenfalls relevant sind Dokumente, welche die Rezeption in unterschiedlichen Kulturkreisen betrachten. Nicht relevant sind Dokumente, die sich mit bestimmten Aufführungen befassen.</narrative>
+		<narrative>Relevante Dokumente behandeln die verschiedenen Dramen Shakespeares im Allgemeinen oder die Tragödien Shakespeares. Ebenfalls relevant sind Dokumente, welche die Rezeption in unterschiedlichen Kulturkreisen betrachten. Teilweise relevant sind Dokumente, die sich mit bestimmten Merkmalen der Dramen Shakespeares beschäftigen, ihren Einfluss auf andere Themenbereiche thematisieren oder Shakespeares Leben und seine Werke im Allgemeinen behandeln. Nicht relevant sind Dokumente, die sich mit bestimmten Aufführungen befassen.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>45</identifier>
@@ -280,7 +280,7 @@
 		<identifier>47</identifier>
 		<title>Selbstbewusstsein stärken</title>
 		<description>Finde Dokumente, die Möglichkeiten aufzeigen, das Selbstbewusstsein zu stärken.</description>
-		<narrative>Relevante Dokumente berichten über allgemeine Möglichkeiten/Techniken das Selbstbewusstsein zu stärken. Teilweise relevante Dokumente behandeln Selbstbewusstsein bei Kindern, sind in englischer Sprache verfasst oder setzen sich mit Selbstbewusstsein im Zusammenhang mit der Philosophie auseinander.Nicht relevant sind Dokumente, welche psychiatrische Erkrankung thematisieren, die mit einem verminderten Selbstbewusstsein assoziiert sind.</narrative>
+		<narrative>Relevante Dokumente berichten über allgemeine Möglichkeiten/Techniken das Selbstbewusstsein zu stärken. Teilweise relevante Dokumente behandeln Selbstbewusstsein bei Kindern, sind in englischer Sprache verfasst oder setzen sich mit Selbstbewusstsein im Zusammenhang mit der Philosophie auseinander. Nicht relevant sind Dokumente, welche psychiatrische Erkrankungen thematisieren, die mit einem verminderten Selbstbewusstsein assoziiert sind.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>48</identifier>
@@ -292,14 +292,13 @@
 		<identifier>49</identifier>
 		<title>Studium im Ausland</title>
 		<description>Finde Dokumente, die sich mit dem Studium im Ausland beschäftigen.</description>
-		<narrative>Relevant sind Dokumente, wenn sie allgemein über Studienmöglichkeiten im Ausland informieren. Teilweise relevante Dokumente sind allgemeine Ratgeber,die sich mit dem Leben und Arbeiten und der Bildung im Ausland befassen. Nicht relevant sind Dokumente, welche sich mit einem Studium in Deutschland oder ausländischen Studierenden an deutschen Hochschulen befassen.</narrative>
+		<narrative>Relevant sind Dokumente, wenn sie allgemein über Studienmöglichkeiten im Ausland informieren. Teilweise relevante Dokumente sind allgemeine Ratgeber, die sich mit dem Leben und Arbeiten sowie der Bildung im Ausland befassen. Nicht relevant sind Dokumente, welche sich mit einem Studium in Deutschland oder ausländischen Studierenden an deutschen Hochschulen befassen.</narrative>
 	</topic>
 	<topic lang="de">
 		<identifier>50</identifier>
 		<title>Verkehrsgeographie</title>
-		<description>Finde Dokumente aus dem Themenbereich "Verkehrsgeographie".</description>
-		<narrative>Relevante Dokumente beschäftigen sich mit den Rahmenbedingungen, der Realisierung und den Konsequenzen der Raumüberwindung von Personen und Gütern; teilweise auch der von Informationen.
-Relevant sind auch solche Dokumente, die sich mit der Geschichte der Verkehrsgeographie beschäftigen, wie auch solche, die die Aufgabenfelder der Verkehrsgeographie in Hinblick auf die Einflüsse aus anderen Bereichen der Geographie und deren Nachbarwissenschaften betrachten. Teilweise relevant sind Dokumente, die sich mit Verkehrsgeographie im Ausland befassen.</narrative>
+		<description>Finde Dokumente aus dem Themenbereich Verkehrsgeographie.</description>
+		<narrative>Relevante Dokumente beschäftigen sich mit den Rahmenbedingungen, der Realisierung und den Konsequenzen der Raumüberwindung von Personen und Gütern; teilweise auch der von Informationen. Relevant sind auch solche Dokumente, die sich mit der Geschichte der Verkehrsgeographie beschäftigen, wie auch solche, die die Aufgabenfelder der Verkehrsgeographie in Hinblick auf die Einflüsse aus anderen Bereichen der Geographie und deren Nachbarwissenschaften betrachten. Teilweise relevant sind Dokumente, die sich mit Verkehrsgeographie im Ausland befassen.</narrative>
 	</topic>
 </topics>
 
