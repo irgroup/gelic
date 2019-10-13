@@ -4,11 +4,12 @@
 
 This repository contains the following items:
 
-- `collection` contains the documents, relevance assessments and topics
-    - `dnb_topics.xml`contains topics used for evaluation
-    - `dnb_rel.txt` contains relevance assessments
+- `gelic_components` contains the documents, relevance assessments and topics
+    - `gelic_assessments.txt` contains relevance assessments
+    - `gelic_collection` contains the title data of the documents
+    - `gelic_topics.xml` contains topics used for evaluation
 - `src` contains a bunch of conversion and analysis scripts
-- `eval` contains trec_eval-like scripts to evaluate different search settings with gelic
+- `gelic_eval-scripts` contains trec_eval-like scripts to evaluate different search settings with gelic
     - `search.py` is a script to search a local solr instance with different queries. The results of the queries are then evaluated by trec_eval and the evaluations are saved as a csv-file
     - `fieldnames.json`contains the different variations of "fields to search in" for search.py
 
