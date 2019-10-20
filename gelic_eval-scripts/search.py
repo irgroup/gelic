@@ -68,11 +68,12 @@ for lines in data:
                 # print line
                 f.write(line)
     
+    # close up the runFile 
+    f.close() 
+
     os.system("trec_eval/trec_eval dnb-collection/dnb_rel.txt title_txt_de.txt > " + str(v) + ".csv")  
     print("Passing runFile of query " + str(v) + " to trec_eval and saving the data to " + str(v) + ".csv")
     v = v + 1 
-    # close up the runFile 
-    f.close() 
 
 # pandas can't merge the dataframes as long as one column is called "runid". 
 # and because the runid-column can't be renamed with pandas,
