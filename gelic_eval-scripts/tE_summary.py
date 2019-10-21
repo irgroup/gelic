@@ -18,16 +18,16 @@ import csv
 # Configuration block 
 ####################################################################
 run = "title_txt_de"
-topicFiles = ["dnb-collection/dnb_topics.xml"]
+topicFiles = ["gelic_components/gelic_topics.xml"]
 solrBase = "http://localhost:8983/solr/"
-solrInstance = "dnb_base"
+solrInstance = "gelic"
 params = ['indent=on', 'wt=json', 'fl=score,id', 'rows=1000']
 solrParams = '&'.join(params)
 
 ####################################################################
 # Don't change things behind this line (except you know what to do).
 ####################################################################
-with open("fieldnames.json", "r") as datafile:
+with open("gelic_eval-scripts/fieldnames.json", "r") as datafile:
     data = json.load(datafile)
 
 # variable for csv-filenames of trec_eval-run throughs
@@ -71,7 +71,7 @@ for lines in data:
     # close up the runFile 
     f.close() 
 
-    os.system("trec_eval/trec_eval dnb-collection/dnb_rel.txt title_txt_de.txt > " + str(v) + ".csv")  
+    os.system("trec_eval/trec_eval gelic_components/gelic_assessments.txt title_txt_de.txt > " + str(v) + ".csv")  
     print("Passing runFile of query " + str(v) + " to trec_eval and saving the data to " + str(v) + ".csv")
     v = v + 1 
 
