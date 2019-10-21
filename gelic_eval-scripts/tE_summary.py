@@ -6,32 +6,38 @@
 ####################################################################
 # Imports
 ####################################################################
-import urllib.request
-import urllib.parse
+
+import csv
 import json
-import xml.etree.ElementTree as ET
 import os
 import pandas as pd
-import csv
+import re
+import urllib.request
+import urllib.parse
+import xml.etree.ElementTree as ET
 
 ####################################################################
 # Configuration block 
 ####################################################################
+
 run = "title_txt_de"
 topicFiles = ["gelic_components/gelic_topics.xml"]
 solrBase = "http://localhost:8983/solr/"
 solrInstance = "gelic"
 params = ['indent=on', 'wt=json', 'fl=score,id', 'rows=1000']
 solrParams = '&'.join(params)
+trecEvalValues = ['num_ret','num_rel','num_rel_ret']
 
 ####################################################################
 # Don't change things behind this line (except you know what to do).
 ####################################################################
+
 with open("gelic_eval-scripts/fieldnames.json", "r") as datafile:
     data = json.load(datafile)
 
-# variable for csv-filenames of trec_eval-run throughs
+# variable for trec_eval-run throughs
 v = 1
+numOfValues = len(trecEvalValues)
 
 for lines in data:
     # declaring field1-4
@@ -47,7 +53,6 @@ for lines in data:
         root = ET.parse(topicFile).getroot()    
         for topic in root.findall('topic'):
             query = topic.find('title').text
-            # query = query.replace(' ',' AND ')
             topicId = topic.find('identifier').text
             fieldQuery = field1+":("+str(urllib.parse.quote(query))+")"
             if field2:
@@ -58,89 +63,94 @@ for lines in data:
                 fieldQuery = fieldQuery + "%20OR%20" + field4 + ":("+str(urllib.parse.quote(query))+")"
 
             solrURL = solrBase+solrInstance+"/select?"+solrParams+"&q="+fieldQuery
-            print("Querying " + topicId + " at " + solrURL)
+            #print("Querying " + topicId + " at " + solrURL)
 
             response = urllib.request.urlopen(solrURL)
             data = json.loads(response.read().decode('utf-8'))
             #print json.dumps(data)
             for i,d in enumerate(data['response']['docs']):
                 line = ' '.join([topicId, '0', str(d['id']), str(i), str(d['score']), str(run), str('\n')])
-                # print line
                 f.write(line)
     
-    # close up the runFile 
+    # closing opened files 
     f.close() 
 
-    os.system("trec_eval/trec_eval gelic_components/gelic_assessments.txt title_txt_de.txt > " + str(v) + ".csv")  
-    print("Passing runFile of query " + str(v) + " to trec_eval and saving the data to " + str(v) + ".csv")
+    # regexing up the 'fieldnames' so they can be used later on
+    field1 = field1.upper()
+    regex = re.compile(r"(SUBJECT_|)(.*)(_TXT_DE)")
+    field1 = regex.search(field1)
+
+    valueNumber = 1
+
+    for value in trecEvalValues:
+        # getting the trec_eval results for each wanted value
+        os.system("trec_eval/trec_eval -m " + str(value) + " gelic_components/gelic_assessments.txt title_txt_de.txt > su" + str(value) + ".csv")
+        
+        with open("su2" + str(value) + ".csv", "w") as resultFile:
+            # writing the header
+            resultFile.write('field' + ';' + str(value) + '\n')
+            
+            with open("su" + str(value) + ".csv", "r") as inputFile:
+                
+                for line in inputFile:
+                    # cleaning the file up to have a consistent divider
+                    cleaning = line.replace('\t', ';')
+                    cleaning2 = cleaning.replace(' ', '')
+                    # splitting the columns
+                    col = cleaning2.split(';')
+                    # writing fieldname + col1 to the resultFile
+                    resultFile.write(str(field1.group(2)).capitalize() + ';' + str(col[2]))
+                    
+        # importing all the csv.-files of the different values to pandas 
+        vars()['data' + str(valueNumber + 1)] = pd.read_csv("su2" + str(value) + ".csv", sep=';')
+        
+        valueNumber = valueNumber + 1
+    
+    frames = []
+    # appending data to frames list
+    for num in range(1,numOfValues+1):
+       frames.append(vars()['data' + str(num+1)])
+    # concatinating frames
+    result = pd.concat(frames, axis=1)
+    # removing duplicate columns
+    result = result.loc[:,~result.columns.duplicated()]    
+    result.to_csv('su3' + str(field1.group(2)).capitalize() + '.csv', sep=';', index=False, decimal=',')
+    
     v = v + 1 
 
-# pandas can't merge the dataframes as long as one column is called "runid". 
-# and because the runid-column can't be renamed with pandas,
-# the file headers are changed in the following with the csv module
+csvNumber = 1
 for csvFilename in os.listdir('.'):
-    if not csvFilename.endswith('.csv'):
-        continue    # skip non-csv files
-    elif csvFilename.endswith('result.csv'):
-        continue    # skip result-csv
-    
-    inputFileName = csvFilename
-    outputFileName = os.path.splitext(inputFileName)[0] + "_modified.csv"
-
-    with open(inputFileName, newline='') as inFile, open(outputFileName, 'w', newline='') as outfile:
-        r = csv.reader(inFile)
-        w = csv.writer(outfile)
-
-        next(r, None)  # skipping old header
-        # write new header
-        w.writerow(['wert' + '\t' + 'all' + '\t' + 'ausgabe'])
-
-        # copy the rest
-        for row in r:
-            w.writerow(row)
-
-
-#ToDo: storing data1-8 in list -> iterate over items instead of vars()... ? (https://stackoverflow.com/questions/15161657/iteration-over-variable-names-in-python) 
-for num in range(1,9):
-    # reading 1-8.csvs to pandas, delimiter = tab
-    vars()['data' + str(num)] = pd.read_csv(str(num) + "_modified.csv", sep='\t')
-    # deleting 'all'-columns from dataframes 
-    vars()['data' + str(num)].drop(columns="all", inplace=True)
-    # stripping the wert column of white spaces
-    vars()['data' + str(num)]['wert'] = vars()['data' + str(num)]['wert'].str.strip()
-
-# renaming column 'title_text_de' to name which describes which fields are searched
-data1.rename(columns={'ausgabe':'titleAndAuto'}, inplace=True)
-data2.rename(columns={'ausgabe':'titleAutoAndVLB'}, inplace=True)
-data3.rename(columns={'ausgabe':'titleAutoAndGND'}, inplace=True)
-data4.rename(columns={'ausgabe':'titleAutoVLBAndGND'}, inplace=True)
-data5.rename(columns={'ausgabe':'titleAndVLB'}, inplace=True)
-data6.rename(columns={'ausgabe':'titleVLBAndGND'}, inplace=True)
-data7.rename(columns={'ausgabe':'titleAndGND'}, inplace=True)
-data8.rename(columns={'ausgabe':'title'}, inplace=True)
-
-# "renaming" data1 so it can be used in the following loop
-newdata1 = data1 
-# merging the dataframes together
-print("Merging trec_eval results...")
-for num in range(1,8):
-    vars()['newdata' + str(num + 1)] = pd.merge(vars()['newdata' + str(num)], vars()['data' + str(num + 1)], on='wert')
-    #print("Merging dataframes of the " + str(num) + " and " + str(num +1) + " queries together.")
-
-# writing the resulting dataframe to result.csv
-newdata8.to_csv('result.csv', index=False)
-
-#removing files that are not needed anymore
-print("Removing unneeded files...")
-for csvFilename in os.listdir('.'):
-    if csvFilename.endswith('_modified.csv'):
-        os.remove(csvFilename)
+    if csvFilename.startswith('su3'):
+        #print(csvFilename)
+        vars()['csv' + str(csvNumber + 1)] = pd.read_csv(csvFilename, sep=';')
+        csvNumber = csvNumber+1
     else:
         continue 
 
-for num in range(1,9):
-    os.remove(str(num) + ".csv")
+dframes = []
+# appending data to dframes list
+for num in range(1,csvNumber):
+   dframes.append(vars()['csv' + str(num+1)])
+# concatinating frames
+result = pd.concat(dframes, axis=0)
 
+# removing duplicate columns
+result = result.loc[:,~result.columns.duplicated()]
+
+# calculating unranked values
+result['recall'] = (result['num_rel_ret']/result['num_rel']).round(decimals=2)
+result['precision'] = (result['num_rel_ret']/result['num_ret']).round(decimals=2)
+result['fmeasure'] = ((2*result['precision']*result['recall'])/(result['precision']+result['recall'])).round(decimals=2)
+
+# saving result to tE_summary.csv  
+result.to_csv('tE_summary.csv', sep=';', index=False, decimal=',')
+
+# removing unneeded files
+for csvFilename in os.listdir('.'):
+    if csvFilename.startswith('su'):
+        os.remove(csvFilename)
+    else:
+        continue 
 os.remove('title_txt_de.txt')
 
 print("Finished!")
