@@ -1,4 +1,8 @@
-# GND Synonyms
+# Useful scripts and resources for GELIC
+
+## Ready-to-go Solr Schema
+
+In ```managed-schema``` you will find a working config file for Solr 8.2.0. A ```synonymGraphFilter``` is configured for the dynamic_field ```*_txt_de```. The synonyms have to be included in ```$SOLR_HOME/server/solr/gelic/conf```.
 
 ## Convert the GND encoding into proper utf-8
 
