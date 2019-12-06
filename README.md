@@ -9,7 +9,7 @@ This repository contains the following items:
     - `corpus.zip` contains the title data of the documents
     - `topics.xml` contains topics used for evaluation
 - `src` contains a bunch of conversion and analysis scripts
-- `scripts` contains scripts to automizie different tasks that emerged in the course of the project 
+- `scripts` contains scripts to automize different tasks that emerged in the course of the project 
     - `evalsummary.py` is a script to search a local solr instance with the titles of the topics.xml as queries. `fieldnames.json` specifies in which fields solr searches. Variations could be: 1. only in "subject_auto_txt_de" 2. only in "subject_gnd_txt_de" 3. "subject_auto_txt_de" and "subject_gnd_txt_de". The results of each fieldnames-variation of queries are then evaluated by trec_eval and summarized. Thus the script is most suitable if you want a quick comparision between variations of fields that are searched in. These summary-evaluations are then saved as a csv-file. 
     - `evalpertopic.py` automizes similar processes as `evalsummary.py` and only the endresult differs. Instead of writing a summary in a single csv-file, the script creates as many csv-files as there are variations in `fieldnames.json`. In these csv-files are the trec_eval result for each query of the variation e.g. a csv-file for the variation "subject_auto_txt_de" in which the recall, precision and f measure of topics like "Kritische Theorie" can be found.
 
