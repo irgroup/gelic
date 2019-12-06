@@ -21,7 +21,7 @@ import xml.etree.ElementTree as ET
 ####################################################################
 
 run = "title_txt_de"
-topicFiles = ["gelic_components/gelic_topics.xml"]
+topicFiles = ["components/topics.xml"]
 solrBase = "http://localhost:8983/solr/"
 solrInstance = "gelic"
 params = ['indent=on', 'wt=json', 'fl=score,id', 'rows=1000']
@@ -32,7 +32,7 @@ trecEvalValues = ['num_ret','num_rel','num_rel_ret']
 # Don't change things behind this line (except you know what to do).
 ####################################################################
 
-with open("gelic_eval-scripts/fieldnames.json", "r") as datafile:
+with open("scripts/fieldnames.json", "r") as datafile:
     data = json.load(datafile)
 
 # variable for csv-filenames of trec_eval run throughs
@@ -61,6 +61,7 @@ for lines in data:
             # query = query.replace(' ',' AND ')
             topicId = topic.find('identifier').text
             fieldQuery = field1+":("+str(urllib.parse.quote(query))+")"
+            print(fieldQuery)
             if field2:
                 fieldQuery = fieldQuery + "%20OR%20" + field2 + ":("+str(urllib.parse.quote(query))+")"
             if field3:
@@ -69,7 +70,7 @@ for lines in data:
                 fieldQuery = fieldQuery + "%20OR%20" + field4 + ":("+str(urllib.parse.quote(query))+")"
 
             solrURL = solrBase+solrInstance+"/select?"+solrParams+"&q="+fieldQuery
-            #print("Querying " + topicId + " at " + solrURL)
+            print("Querying " + topicId + " at " + solrURL)
 
             response = urllib.request.urlopen(solrURL)
             data = json.loads(response.read().decode('utf-8'))
@@ -77,6 +78,7 @@ for lines in data:
             for i,d in enumerate(data['response']['docs']):
                 line = ' '.join([topicId, '0', str(d['id']), str(i), str(d['score']), str(run), str('\n')])
                 f.write(line)
+                #print(line)
 
             topicLine = str(topicId) + ';' + str(query) + '\n'
             topics.write(topicLine) 
@@ -87,14 +89,38 @@ for lines in data:
 
     # regexing up the 'fieldnames' so they can be used later on
     field1 = field1.upper()
-    regex = re.compile(r"(SUBJECT_|)(.*)(_TXT_DE)")
+    field2 = field2.upper()
+    field3 = field3.upper()
+    field4 = field4.upper()
+
+    regex = re.compile(r"(SUBJECT_|)(.*)(_TXT_DE|_SS)")
+    
     field1 = regex.search(field1)
+    if field1:
+        field1 = str(field1.group(2)).capitalize() + str(field1.group(3)).capitalize()
+    else:
+        field1 = ''
+    field2 = regex.search(field2)
+    if field2:
+        field2 = '-' + str(field2.group(2)).capitalize() + str(field2.group(3)).capitalize()
+    else:
+        field2 = ''
+    field3 = regex.search(field3)
+    if field3:
+        field3 = '-' + str(field3.group(2)).capitalize() + str(field3.group(3)).capitalize()
+    else:
+        field3 = ''
+    field4 = regex.search(field4)
+    if field4:
+        field4 = '-' + str(field4.group(2)).capitalize() + str(field4.group(3)).capitalize()
+    else:
+        field4 = ''
 
     valueNumber = 1
     
     for value in trecEvalValues:
         # getting the trec_eval results for each wanted value
-        os.system("trec_eval/trec_eval -q -n -m " + str(value) + " gelic_components/gelic_assessments.txt title_txt_de.txt > pT" + str(value) + ".csv")
+        os.system("trec_eval/trec_eval -q -n -m " + str(value) + " components/assessments.txt title_txt_de.txt > pT" + str(value) + ".csv")
         
         with open("pT2" + str(value) + ".csv", "w") as resultFile:
             # writing the header
@@ -130,7 +156,7 @@ for lines in data:
     merged4['fmeasure'] = ((2*merged4['precision']*merged4['recall'])/(merged4['precision']+merged4['recall'])).round(decimals=2)
     
     # writing the resulting dataframe to csv-files
-    merged4.to_csv('tE_PerTopic' + str(field1.group(2)) + '.csv', sep=';', index=False, decimal=',')
+    merged4.to_csv('tE_PerTopic' + str(field1) + str(field2) + str(field3) + str(field4) + '.csv', sep=';', index=False, decimal=',')
 
     v = v + 1
 

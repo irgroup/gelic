@@ -21,7 +21,7 @@ import xml.etree.ElementTree as ET
 ####################################################################
 
 run = "title_txt_de"
-topicFiles = ["gelic_components/gelic_topics.xml"]
+topicFiles = ["components/topics.xml"]
 solrBase = "http://localhost:8983/solr/"
 solrInstance = "gelic"
 params = ['indent=on', 'wt=json', 'fl=score,id', 'rows=1000']
@@ -32,7 +32,7 @@ trecEvalValues = ['num_ret','num_rel','num_rel_ret']
 # Don't change things behind this line (except you know what to do).
 ####################################################################
 
-with open("gelic_eval-scripts/fieldnames.json", "r") as datafile:
+with open("scripts/fieldnames.json", "r") as datafile:
     data = json.load(datafile)
 
 # variable for trec_eval-run throughs
@@ -77,14 +77,38 @@ for lines in data:
 
     # regexing up the 'fieldnames' so they can be used later on
     field1 = field1.upper()
-    regex = re.compile(r"(SUBJECT_|)(.*)(_TXT_DE)")
+    field2 = field2.upper()
+    field3 = field3.upper()
+    field4 = field4.upper()
+    
+    regex = re.compile(r"(SUBJECT_|)(.*)(_TXT_DE|_SS)")
+    
     field1 = regex.search(field1)
+    if field1:
+        field1 = str(field1.group(2)).capitalize() + str(field1.group(3)).capitalize()
+    else:
+        field1 = ''
+    field2 = regex.search(field2)
+    if field2:
+        field2 = '-' + str(field2.group(2)).capitalize() + str(field2.group(3)).capitalize()
+    else:
+        field2 = ''
+    field3 = regex.search(field3)
+    if field3:
+        field3 = '-' + str(field3.group(2)).capitalize() + str(field3.group(3)).capitalize()
+    else:
+        field3 = ''
+    field4 = regex.search(field4)
+    if field4:
+        field4 = '-' + str(field4.group(2)).capitalize() + str(field4.group(3)).capitalize()
+    else:
+        field4 = ''
 
     valueNumber = 1
 
     for value in trecEvalValues:
         # getting the trec_eval results for each wanted value
-        os.system("trec_eval/trec_eval -m " + str(value) + " gelic_components/gelic_assessments.txt title_txt_de.txt > su" + str(value) + ".csv")
+        os.system("trec_eval/trec_eval -m " + str(value) + " components/assessments.txt title_txt_de.txt > su" + str(value) + ".csv")
         
         with open("su2" + str(value) + ".csv", "w") as resultFile:
             # writing the header
@@ -99,7 +123,7 @@ for lines in data:
                     # splitting the columns
                     col = cleaning2.split(';')
                     # writing fieldname + col1 to the resultFile
-                    resultFile.write(str(field1.group(2)).capitalize() + ';' + str(col[2]))
+                    resultFile.write(str(field1) + str(field2) + str(field3) + str(field4) + ';' + str(col[2]))
                     
         # importing all the csv.-files of the different values to pandas 
         vars()['data' + str(valueNumber + 1)] = pd.read_csv("su2" + str(value) + ".csv", sep=';')
@@ -114,7 +138,7 @@ for lines in data:
     result = pd.concat(frames, axis=1)
     # removing duplicate columns
     result = result.loc[:,~result.columns.duplicated()]    
-    result.to_csv('su3' + str(field1.group(2)).capitalize() + '.csv', sep=';', index=False, decimal=',')
+    result.to_csv('su3' + str(field1) + str(field2) + str(field3) + str(field4) + '.csv', sep=';', index=False, decimal=',')
     
     v = v + 1 
 
