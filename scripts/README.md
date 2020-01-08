@@ -38,3 +38,10 @@ CSV-Name: "tE_summary.csv"
 5. Column : recall
 6. Column : precision
 7. Column : fmeasure
+
+## synonyms.py
+File-Name: synonyms.txt
+
+synonym-1,synonym-2, … => preferred term
+
+e.g.: Landwirtschaftschemie,Agrochemie,Agrarchemie => Agrikulturchemie
